@@ -30,10 +30,3 @@ cd gcc-pass-2
 bash ../../src/gcc/configure CFLAGS="$flags" CXXFLAGS="$flags" --prefix="$path" --target="$arch" --enable-thumb --enable-interwork --enable-multilib --enable-languages=c --with-system-zlib --disable-nls
 make -j5
 make install
-
-cd ..
-mkdir -p gdb
-cd gdb
-bash ../../src/gdb/configure CFLAGS="$flags" CXXFLAGS="$flags" --prefix="$path" --target="$arch" --disable-nls
-make -j5
-make install
