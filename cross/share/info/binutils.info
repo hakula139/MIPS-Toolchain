@@ -42,7 +42,7 @@ Introduction
 ************
 
 This brief manual contains documentation for the GNU binary utilities
-(GNU Binutils) version 2.34:
+(GNU Binutils) version 2.34.0:
 
    This document is distributed under the terms of the GNU Free
 Documentation License version 1.3.  A copy of the license is included in
@@ -5685,34 +5685,34 @@ Binutils Index
 
 Tag Table:
 Node: Top1834
-Node: ar3551
-Node: ar cmdline6704
-Node: ar scripts19330
-Node: nm25016
-Node: objcopy37640
-Node: objdump77841
-Node: ranlib110414
-Node: size112013
-Node: strings115982
-Node: strip120354
-Node: c++filt129879
-Ref: c++filt-Footnote-1135741
-Node: addr2line135847
-Node: windmc141526
-Node: windres145185
-Node: dlltool151544
-Node: def file format164541
-Node: readelf167071
-Node: elfedit179645
-Node: Common Options182601
-Node: Selecting the Target System183635
-Node: Target Selection184563
-Node: Architecture Selection186544
-Node: debuginfod187372
-Node: Reporting Bugs188131
-Node: Bug Criteria188893
-Node: Bug Reporting189446
-Node: GNU Free Documentation License196316
-Node: Binutils Index221476
+Node: ar3553
+Node: ar cmdline6706
+Node: ar scripts19332
+Node: nm25018
+Node: objcopy37642
+Node: objdump77843
+Node: ranlib110416
+Node: size112015
+Node: strings115984
+Node: strip120356
+Node: c++filt129881
+Ref: c++filt-Footnote-1135743
+Node: addr2line135849
+Node: windmc141528
+Node: windres145187
+Node: dlltool151546
+Node: def file format164543
+Node: readelf167073
+Node: elfedit179647
+Node: Common Options182603
+Node: Selecting the Target System183637
+Node: Target Selection184565
+Node: Architecture Selection186546
+Node: debuginfod187374
+Node: Reporting Bugs188133
+Node: Bug Criteria188895
+Node: Bug Reporting189448
+Node: GNU Free Documentation License196318
+Node: Binutils Index221478
 
 End Tag Table
