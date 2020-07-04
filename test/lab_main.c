@@ -1,10 +1,8 @@
 #include <stdint.h>
 #include <sys/syscall.h>
 
-__attribute__((__section__(".data.hi")))
-
-int a[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-int b[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int a[] __attribute__((section(".data")))    = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int b[] __attribute__((section(".data.hi"))) = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 void lab_exit(int status) {
   asm("syscall" : : "a"(__NR_exit), "D"(status) :);
