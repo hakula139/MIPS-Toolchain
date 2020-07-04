@@ -43,7 +43,7 @@ $(ASM_O): $(ASM_S)
 # Make
 .PHONY: lab clean
 
-$(BIN): $(OBJS)
+$(BIN): $(OBJS) $(LD_SCRIPT)
 	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@
 
 lab: $(BIN)
