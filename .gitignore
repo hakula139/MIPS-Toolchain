@@ -56,5 +56,8 @@ dkms.conf
 
 # Customized
 .vscode
-/bin
+bin
 build
+cross
+!cross/scripts
+!.keep
