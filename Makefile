@@ -1,7 +1,6 @@
 PROJECT     := lab
 
 # Directories
-SRC_PATH    := src/
 TEST_PATH   := test/
 BUILD_PATH  := build/
 BIN_PATH    := bin/
@@ -15,7 +14,7 @@ ASM         := $(PROJECT)_asm
 ASM_S       := $(TEST_PATH)$(ASM).S
 ASM_O       := $(BUILD_PATH)$(ASM).o
 
-LD_SCRIPT   := $(SRC_PATH)$(PROJECT).ld
+LD_SCRIPT   := $(TEST_PATH)$(PROJECT).ld
 
 OBJS        := $(MAIN_O) $(ASM_O)
 BIN         := $(BIN_PATH)$(PROJECT).bin
