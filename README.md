@@ -1,6 +1,6 @@
 # MIPS-Toolchain
 
-A prebuilt GNU toolchain for MIPS SoC (mips-unknown-elf).
+A prebuilt GNU toolchain for MIPS SoC (mipsel-unknown-elf).
 
 ## Components
 
