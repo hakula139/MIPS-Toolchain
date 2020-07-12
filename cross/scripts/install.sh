@@ -1,7 +1,7 @@
 #!/bin/bash
 path=$( cd "$(dirname "${BASH_SOURCE[0]}")/.."; pwd -P )
 flags="-O3 -march=native"
-arch="mips-unknown-elf"
+arch="mipsel-unknown-elf"
 cd "$path"
 
 mkdir -p build/binutils

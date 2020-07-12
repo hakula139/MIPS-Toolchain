@@ -24,7 +24,7 @@ CC          := gcc
 AS          := as
 
 # Cross-compile toolchain
-CROSS       := mips-unknown-elf-
+CROSS       := mipsel-unknown-elf-
 CROSS_CC    := $(CROSS)$(CC)
 CROSS_AS    := $(CROSS)$(AS)
 
